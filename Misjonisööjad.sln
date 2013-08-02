@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Misjonisööjad", "Misjonisööjad\Misjonisööjad.vcxproj", "{CA8BE342-9EEF-44F2-AE16-675D6C78BA0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31A85341-5915-444E-B80C-BC1410DFD4BA} = {31A85341-5915-444E-B80C-BC1410DFD4BA}
+		{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3} = {66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap", "..\Heap\Heap\Heap.vcxproj", "{31A85341-5915-444E-B80C-BC1410DFD4BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hashtable", "..\Hashtable\Hashtable\Hashtable.vcxproj", "{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8BE342-9EEF-44F2-AE16-675D6C78BA0E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA8BE342-9EEF-44F2-AE16-675D6C78BA0E}.Debug|Win32.Build.0 = Debug|Win32
+		{CA8BE342-9EEF-44F2-AE16-675D6C78BA0E}.Release|Win32.ActiveCfg = Release|Win32
+		{CA8BE342-9EEF-44F2-AE16-675D6C78BA0E}.Release|Win32.Build.0 = Release|Win32
+		{31A85341-5915-444E-B80C-BC1410DFD4BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31A85341-5915-444E-B80C-BC1410DFD4BA}.Debug|Win32.Build.0 = Debug|Win32
+		{31A85341-5915-444E-B80C-BC1410DFD4BA}.Release|Win32.ActiveCfg = Release|Win32
+		{31A85341-5915-444E-B80C-BC1410DFD4BA}.Release|Win32.Build.0 = Release|Win32
+		{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}.Debug|Win32.Build.0 = Debug|Win32
+		{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}.Release|Win32.ActiveCfg = Release|Win32
+		{66F8068F-0223-4C4C-A124-DDDC1F5CEEF3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
